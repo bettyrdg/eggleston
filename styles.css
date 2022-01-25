@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html {
+  background: pink;
+  margin: 10px;
+  background: url("cartoon-eggs-6.gif") 100%;
+  background-size: 26%;
+}
+body {
+  background: white;
+  margin: 80px;
+}
+h1 {
+  font-size: 4em;
+  font-family: 'Rochester', cursive;
+  letter-spacing: 3.1px;
+  text-align: center;
+}
+h2 {
+  font-size: 3em;
+  font-family: 'Rochester', cursive;
+  letter-spacing: 3.1px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  word-spacing: 3em;
+  letter-spacing: 3px;
+  padding: 20px;
+}
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+
+}
+a:hover {
+  color: palevioletred;
+  text-decoration: underline;
+}
+article {
+  text-indent: 2em;
+  line-height: 30px;
+  padding: 40px 20px;
+}
+.banner img {
+  width: 60%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto; 
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 30px;
+}
+#table  th {
+  font-size: 1.2em;
+  font-family: 'Rochester', cursive;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+td {
+  font-size: 1em;
+  width: 200px;
+}
+article {
+  text-align: center;
+  font-size: 1.6em;
+}
+#button {
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 12px;
+    transition-duration: .4s;
+    margin: 0;
+    position: absolute;
+}
+#button:hover {
+  background-color: yellow;
+  color: black;
+}
+h3 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Rochester', cursive;
+}
+p, form {
+  text-align: center;
+}
+.addButton {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

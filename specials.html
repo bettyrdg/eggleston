@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Eggleston</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="styles.css" rel="stylesheet" />
+    <script src="specials.js"></script>
+    <script src="specials-t.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Eggleston</h1>
+    </header>
+
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#" onclick="openSpecials()">Specials</a></li>          
+          <li><a href="hours.html">Hours&Location</a></li>
+        </ul>
+      </nav>
+    </div>
+    <article>
+      Specials are from Mon-Fri from 7am-12pm
+    </article>
+    <div id="table"></div>
+
+    <button id="button" onclick="closeWin()">Close window</button>
+  </body>
+</html>

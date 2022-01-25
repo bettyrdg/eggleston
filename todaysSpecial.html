@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Eggleston</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="styles.css" rel="stylesheet" />
+    <script src="menu.js" async></script>
+    <script src="specials.js" async></script>
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Eggleston</h1>
+    </header>
+
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#" onclick="openSpecials()">Specials</a></li>
+          <li><a href="hours.html">Hours&Location</a></li>
+        </ul>
+      </nav>
+    </div>
+
+
+    <section id="main">
+      <h1>Today's Specials</h1>
+      <section id="items">
+        <div class="menu-items">
+          <div id="item0" >
+            <h3>Egg Bowl</h3>
+            <img src="images/egg1.jpg">
+            <p>A bowl of quinoa, avocado arugula, and peppers.</p>
+            <p id="price0">Price: $10</p>
+            <form>
+              <label for="qty">Qty</label>
+              <input type="text" id="qty" name="qty" value="1" size="2" maxlength="9">
+            <input class="addButton" id="addButton" type="button" value="Add to Order" onclick="total()" />
+            <p id="total"></p>
+            <script>
+            
+              </script>
+
+          </form>
+          </div>
+
+          <div id="item1" >
+            <h3>Avocado&Egg Sandwich</h3>
+            <img src="images/egg2.jpg">
+            <p>Sanwich on sourdough bread with egg, mashed avocado, greens, and a spicy sauce. Comes with a side of fresh fruit.</p>
+            <p>Price: $10</p>
+            <form>
+              <label for="qty">Qty</label>
+              <input type="text" id="qty" name="qty" value="1" size="2" maxlength="9">
+            <input class="addButton" type="button" value="Add to Order" />
+          </form>
+          </div>
+
+          <div id="item2" >
+            <h3>Egg&Veggie Bacon</h3>
+            <img src="images/egg3.jpg">
+            <p>Classix breakfast sandwich on choice of bagel or sliced bread.</p>
+            <p>Price: $8</p>
+            <form>
+              <label for="qty">Qty</label>
+              <input type="text" id="qty" name="qty" value="1" size="2" maxlength="9">
+            <input class="addButton" type="button" value="Add to Order" />
+          </form>
+          </div>
+         </div>
+        </div>
+      </section>
+    </section>
+
+
+
+  </body>
+</html>
